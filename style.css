@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    max-width: 1024px;
+    margin: auto;
+    font-family: 'Mitr', sans-serif;
+}
+header {
+    background-color: salmon !important;
+    /* height: 70px; */
+    /* padding: 25px; */
+    /* padding-top: 25px;
+    padding-bottom: 25px; */
+    /* padding-block: 25px; */
+    /* padding-inline: 10px; */
+    min-height: 70px;
+}
+nav {
+    background-color: chocolate;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+/* nav > * /* nav > *:nth-child(4) {
+    color: blue;
+    display: inline-block;
+    background-color: aliceblue;
+    padding: 10px 16px;
+} */
+/* nav > *:first-child { 
+     margin-right: 400px; 
+ } */
+.button-group   {
+    display: flex;
+    gap: 10px;
+}
+.prev {
+    font-size: 20px;
+}
+.button-group > button {
+    border: none;
+    border-radius: 15%;
+}
+.welcome {
+    font-size: 32px;
+    text-align: center;
+    background-color: bisque;
+    /* padding-top: 40px; */
+    margin-top: 60px;
+}
+.select-header {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+.item-rows {
+    background-color: blanchedalmond;
+    /* border: 1px dashed red; */
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 20px;
+}
+.item-rows >.item1 >img ,.item-rows .item2 >img {
+    width: 110px;
+    height: 110px;
+}
+.item1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 55px;
+    border-radius: 100%;
+    background-color: #a1c1d7;
+    color: #010101;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    width: 120px;
+    height: 135px;
+    text-align: center;
+
+}
+.item2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 55px;
+    border-radius: 100%;
+    background-color: #a1c1d7;
+    color: #010101;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    width: 120px;
+    height: 135px;
+    text-align: center;
+
+}
+.topuppic {
+    height: auto;
+    width: auto;
+}
+
+.topuppic img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+h1 {
+    text-align: center;   
+}
